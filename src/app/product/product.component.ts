@@ -16,11 +16,9 @@ export class ProductComponent {
 
 
   items=[  
-    {id:1, name: 'item 1', price:'ფასი არის 5 ლარი'},
-    {id:2, name: 'item 2', price:'ფასი არის 5 ლარი'},
-    {id:3, name: 'item 3', price:'ფასი არის 5 ლარი'},
-    {id:4, name: 'item 4', price:'ფასი არის 5 ლარი'},
-    {id:5, name: 'item 5', price:'ფასი არის 5 ლარი'},
+    { id: 1, name: 'ლეპტოპი', price: 2500, description: 'მაღალი წარმადობის ლეპტოპი' },
+    { id: 2, name: 'სმარტფონი', price: 1200, description: 'ახალი თაობის სმარტფონი' },
+    { id: 3, name: 'ყურსასმენები', price: 300, description: 'ხარისხიანი აუდიო ყურსასმენები' }
 
   ]
 

@@ -5,8 +5,8 @@
 
 <ul>
     @for(item of items; track item.id){
-        <li routerLink="/details" [queryParams]="{id: item.id, name: item.name}">
-            {{item.name}} {{item.price}}
+        <li routerLink="/" [queryParams]="{id: item.id, name: item.name}">
+            {{item.name}} - {{item.price}}₾
         </li>
     }
 </ul>
