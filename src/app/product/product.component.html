@@ -1,0 +1,16 @@
+
+
+
+<p>Item List</p>
+
+<ul>
+    @for(item of items; track item.id){
+        <li routerLink="/details" [queryParams]="{id: item.id, name: item.name}">
+            {{item.name}} {{item.price}}
+        </li>
+    }
+</ul>
+
+<button click="goToDetail()">click Me</button>
+
+<router-outlet></router-outlet>
