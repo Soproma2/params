@@ -1,0 +1,11 @@
+li {
+    cursor: pointer;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+li:hover {
+    color: rgb(0, 0, 0);
+    text-shadow:rgb(0, 183, 255) 2px 2px 2px;
+    font-weight: bold;
+}
