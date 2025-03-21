@@ -1,7 +1,8 @@
 li {
     cursor: pointer;
     font-size: 30px;
-    transition: 0.5s;
+    transition: 0.5
+    s;
 }
 
 li:hover {
